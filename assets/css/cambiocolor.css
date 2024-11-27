@@ -1,0 +1,14 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: lightgray;
+}
+.botones {
+    text-align: center;
+}
+.boton-color {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}

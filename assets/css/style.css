@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+.contact-form,
+.color-selector,
+.calculator {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.contact-form__input {
+    display: block;
+    margin: 10px 0;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form__message {
+    color: red;
+    font-size: 14px;
+}
+
+.color-selector__box {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    background-color: lightgray;
+}
+
+.color-selector__option {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.calculator__controls {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.calculator__result {
+    font-size: 24px;
+    text-align: center;
+}
